@@ -34,6 +34,7 @@ function Game() {
 		for (i = 0; i < 7; i++) {
 			this.npcHand.push(this.cards.pop());
 		}
+		console.log("Computer's hand is:");
 		console.log(this.npcHand);
 		return this.npcHand;
 	}
